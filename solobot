@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#creates one viewer on twitch.
+
+streamlink --http-proxy "socks5://127.0.0.1:9050" --loglevel debug --player "/tmp/null_player.sh" twitch.tv/silkyostrich 360p
